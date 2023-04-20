@@ -30,3 +30,18 @@ bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
 puts bitcoin_data
+
+#1. extarct the rate of bitcoin in dollars
+
+rate = bitcoin_data["bpi"]["USD"]["rate_float"]
+puts rate
+
+#calculate the value of bitcoin in USD
+
+value = bitcoin * rate
+puts value
+
+puts "1 bitcoin is valued at $#{rate} USD"
+puts "Your Bitcoin is worth $#{value} USD"
+
+#how do I get the jarrgon to go away??
