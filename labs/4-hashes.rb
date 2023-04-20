@@ -29,7 +29,7 @@ bitcoin = gets.chomp
 bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
-puts bitcoin_data
+# puts bitcoin_data
 
 #1. extarct the rate of bitcoin in dollars
 
@@ -44,4 +44,4 @@ puts value
 puts "1 bitcoin is valued at $#{rate} USD"
 puts "Your Bitcoin is worth $#{value} USD"
 
-#how do I get the jarrgon to go away??
+#how do I get the jarrgon to go away??cd ..
